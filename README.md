@@ -36,6 +36,10 @@ namespace RoomJoiner {
 
       return false;
     }
+
+    public static bool IsForestMap() {
+      return BaboonLib.Map == "forest";
+    }
   }
 }
 ```
